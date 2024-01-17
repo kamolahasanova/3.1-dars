@@ -1,0 +1,142 @@
+:root {
+  --primer-color: #f16718;
+  --primer-shadow-color: #ff9b62;
+  --secondary-color: #162542;
+  --main-font-family: "Barlow", sans-serif;
+}
+/* global css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: none;
+}
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+html {
+  height: 100%;
+}
+img {
+  object-fit: cover;
+  display: flex;
+}
+h1 {
+  margin: 0;
+}
+body {
+  height: 100%;
+  font-family: var(--main-font-family);
+  color: #7b8bad;
+  line-height: 26px;
+  font-weight: 500;
+  background-color: #fff;
+}
+.container {
+  width: 100%;
+  max-width: 1210px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.btn {
+  padding: 16px 27px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
+.btn-orange {
+  background: var(--primer-color);
+  color: #fff;
+}
+.btn-orange:hover {
+  background: var(--primer-shadow-color);
+}
+.btn-gray {
+  background: #e8eff2;
+  color: var(--secondary-color);
+}
+.btn-gray:hover {
+  background: var(--secondary-color);
+  color: #fff;
+}
+/* headr */
+.header {
+  padding-top: 55px;
+  padding-bottom: 55px;
+  margin-bottom: 28px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  height: 480px;
+}
+
+.hero-box {
+  display: inline-block;
+  margin-top: 60px;
+}
+.hero-heading {
+  color: var(--secondary-color);
+  width: 445px;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 56px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.hero-description {
+  width: 445px;
+  font-size: 18px;
+}
+.hero-btn {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-info {
+  font-weight: 700;
+}
+.hero-img {
+}
+
+.box {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+}
+.card {
+  width: 255px;
+  height: 323px;
+}
+.card-rasm {
+  width: 65px;
+  height: 65px;
+  
+}
+.card-heading {
+  color: var(--secondary-color);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28px;
+  text-transform: uppercase;
+  height: 56px;
+  margin-top: 48px;
+  margin-bottom: 24px;
+  
+}
+.card-text {
+}
